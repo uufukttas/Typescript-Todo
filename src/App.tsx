@@ -8,8 +8,8 @@ import store from './store';
 const App = () => {
   return (
     <Provider store={store}>
-      <div className="App">
-        <h1>Todo List</h1>
+      <div className="App justify-center align-center flex flex-col h-screen">
+      <h1 className="text-3xl font-semibold text-center text-gray-800">Todo List</h1>
         <TodoForm />
         <TodoList />
       </div>
