@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# Todo List Uygulaması
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu, basit bir "Todo List" uygulamasıdır. Kullanıcılar, yeni görevler ekleyebilir, mevcut görevleri düzenleyebilir ve silebilirler.
 
-## Available Scripts
+[Todo List Demo](todo-list-screenshot.png)
 
-In the project directory, you can run:
+## Başlangıç
 
-### `npm start`
+Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Gereksinimler
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Bu projeyi çalıştırmak için aşağıdaki yazılımlara ihtiyacınız vardır:
 
-### `npm test`
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) veya [Yarn](https://yarnpkg.com/) paket yöneticisi
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Kurulum
 
-### `npm run build`
+1. Projeyi bu deposu klonlayın:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/kullanici-adi/todo-list-app.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Proje klasörüne gidin:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd todo-list-app
+```
 
-### `npm run eject`
+3. Gerekli paketleri yüklemek için aşağıdaki komutu çalıştırın:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+npm install
+# veya
+yarn install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Uygulamayı başlatmak için aşağıdaki komutu çalıştırın:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm start
+# veya
+yarn start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Uygulama varsayılan olarak [http://localhost:3000](http://localhost:3000) adresinde çalışır.
 
-## Learn More
+## Kullanım
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Uygulamayı başlattığınızda, ana sayfada "Todo List" başlığı ve bir giriş alanı ile "Ekle" düğmesi göreceksiniz. İşte uygulamanın temel kullanımı:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Yeni bir görev eklemek için giriş alanına metin girin ve "Ekle" düğmesine tıklayın.
+- Varolan bir görevi düzenlemek için "Düzenle" düğmesine tıklayın, yeni metni girin ve "Tamam" düğmesine tıklayın.
+- Bir görevi silmek için "Sil" düğmesine tıklayın.
+
+## Katkı
+
+Eğer bu projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
+
+1. Proje deposunu çatallayın (fork).
+2. Yeni bir özellik eklemek veya bir hata düzeltmek için bir dal (branch) oluşturun.
+3. Değişikliklerinizi yapın ve düzenleyin.
+4. Değişikliklerinizin düzgün çalıştığını doğrulamak için testler ekleyin (eğer gerekiyorsa).
+5. Değişikliklerinizi kendi deposunuzdaki dalınıza (branch) itin (push).
+6. Bir çekme isteği (pull request) oluşturun ve açıklayıcı bir başlık ve açıklama ekleyin.
+
+## Lisans
+
+Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE.md](LICENSE.md) dosyasına başvurun.
