@@ -2,7 +2,7 @@
 
 Bu, basit bir "Todo List" uygulamasıdır. Kullanıcılar, yeni görevler ekleyebilir, mevcut görevleri düzenleyebilir ve silebilirler.
 
-[Todo List Demo](todo-list-screenshot.png)
+[Todo List Demo](https://uufukttas-typescript-todo.netlify.app/)
 
 ## Başlangıç
 
