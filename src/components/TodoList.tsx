@@ -35,7 +35,7 @@ const TodoList = () => {
     }
 
     return (
-        <ul className="space-y-2 mb-4 flex flex-col justify-center items-center w-full">
+        <ul className="space-y-2 mb-4 flex flex-col justify-center items-center w-full overflow-scroll">
             {createList()}
         </ul>
     );

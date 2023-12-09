@@ -29,7 +29,7 @@ const TodoForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mb-4 flex flex-row justify-center">
+    <form onSubmit={handleSubmit} className="mb-4 flex flex-row justify-center w-3/4">
       <input
         type="text"
         placeholder="Yeni görev ekleyin..."
